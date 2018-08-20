@@ -27,7 +27,6 @@ namespace IntPracticePOM.Pages
         protected IWebElement txt_TransferScenario  => PrePostTest.sWebDriver.FindElement(By.XPath("//a[text() = 'Transfer Scenarios']"));
 
 
-        //test CI
         public void ClickSignIn()
         {
             btn_signIn.Click();
